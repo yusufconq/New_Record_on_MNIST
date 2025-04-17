@@ -3,14 +3,14 @@
 This repository contains a PyTorch implementation of a compact convolutional neural network (CNN) that achieves a **new state-of-the-art accuracy-per-parameter score on the MNIST dataset**.
 It has 2 versions, both break the record (atleast after my current research about the record which I have done).
 
-## mnis_normal.py
+## mnis_small.py
 
 Epoch 25/80 - Loss: 0.8046 - Accuracy: 73.63%
 Test Loss: 0.7910 - Test Accuracy: 74.14%
 
 His parameter-count is 232 and achieved around 74.14% accuracy. Which results around 0.0032 (0.32%) accuracy-per-parameter.
 
-## mnis_small.py
+## mnis_normal.py
 
 Epoch 30/80 - Loss: 0.5123 - Accuracy: 85.65%
 Test Loss: 0.4862 - Test Accuracy: 86.05%
